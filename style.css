@@ -1,0 +1,53 @@
+
+#title{
+  text-align: center;
+  font-family: 'Bungee Shade', cursive;
+ color: White;
+  font-size: 50px;
+}
+
+#wrapper{
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gird-emplate-row: 500px;
+  grid-gap: 10px;
+  justify-items: center
+}
+
+#pic{
+  width: 100%
+}
+body {
+background-image: url("https://cdn.glitch.com/a60c8e3c-0705-4e62-a052-6c9728aa4027%2Fboom.jpg?v=1585111409959");
+}
+p{
+  color: white;
+font-family: 'Gurajada', serif;
+  font-size: 30px;
+}
+#back{
+  background-color: White;
+  border: none;
+  color: black;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Bebas Neue', cursive;
+}
+#next{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Bebas Neue', cursive;
+}
